@@ -9,12 +9,14 @@ to your components. This will allow the search for your data in the
 
 ## Setup
 
-Clone the starter repo accessible from the `Download Project` button at the
-bottom of this page.
-
-1. Run `npm install` in the **backend** directory to install dependencies.
-2. Run `npm run db:setup` to set up the database.
-3. Run `npm start` to start the backend server.
+1. Install dependencies
+2. Create a **.env** file based on the example with proper settings for your
+   local environment
+3. Run `npm install` in the **backend** directory to install dependencies.
+4. Create a database user with the same name and password as found in your
+   **.env** file with `CREATEDB` privileges
+5. Run `npm run db:setup` to set up the database.
+6. Run `npm start` to start the backend server.
 
 In a different terminal, `cd` into the **frontend** directory of the starter.
 
